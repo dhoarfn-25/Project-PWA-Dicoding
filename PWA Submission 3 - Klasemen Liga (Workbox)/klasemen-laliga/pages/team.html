@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1"> 
+      <link rel="preconnect" href="https://crests.football-data.org">     
+      <link rel = "stylesheet" href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+      <link rel="stylesheet" href="css/materialize.css">
+      <script type = "text/javascript" src = "js/jquery-3.5.1.min.js"></script>           
+      <script src = "js/materialize.min.js"></script> 
+   </head>
+   <style>
+     .content{
+   margin-bottom:50px; 
+      }   
+   </style>
+
+<div class="content">
+   <div class="card grey darken-4 z-depth-5">
+      <div class="row pt-3 d-flex klub-wraper-top">
+      <div class="col s12 m11 l5 center-align">
+         <img src="" alt="" class="responsive-img klub-logo">
+      </div>
+      <div class="white-text klub-nama center f-column col s12 m11 l7 left-align">
+        
+         <p class="center-align"> 
+               <h1></h1>
+         <p class="white-text" id="info"></p>
+         </p>
+        
+      </div>
+         <a class="pulse btn-floating halfway-fab btn-large btn red darken-2 favteam-btn z-depth-5"><i class = "material-icons">favorite_border</i></a>
+      </div>
+   </div>
+</div>
+
+<div class="content">
+   <ul class = "collapsible popout" data-collapsible = "accordion">
+      <li>
+         <div class = "blue darken-3 white-text collapsible-header waves-effect waves-white">
+          <i class = "material-icons">details</i>Detail Team</div>
+            <div class = "black white-text responsive collapsible-body">
+           <p><ul id="information" class="left-align"></ul></p>
+         </div>
+      </li>    
+   </ul>
+
+
+<ul class = "collapsible popout" data-collapsible = "accordion">
+   <li>
+      <div class = "green darken-2 white-text collapsible-header waves-effect waves-blue">
+         <i class = "material-icons">people</i>Players
+      </div>
+      
+      <div class = "black collapsible-body">
+         <p><ul class="collapsible popout left-align" id="squad"></ul></p>
+      </div>
+   </li>    
+</ul>
+
+
+<ul class = "collapsible popout" data-collapsible = "accordion">
+   <li>
+      <div class = "red darken-2 white-text collapsible-header waves-effect waves-blue">
+         <i class = "material-icons">schedule</i>Next Fixture</div>
+      <div class = "black collapsible-body">
+         <p><ul class="collection" id="nextFixture"></ul></p>
+      </div>
+   </li>    
+</ul>
+      
+</div>
+</html>

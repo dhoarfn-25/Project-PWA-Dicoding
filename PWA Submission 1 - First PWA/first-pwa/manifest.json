@@ -1,0 +1,16 @@
+{
+    "name": "Betta Fish Universe",
+    "short_name": "Be Fish",
+    "description": "Aplikasi Betta Fish",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#bbdefb",
+    "icons": [
+        {
+            "src": "icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

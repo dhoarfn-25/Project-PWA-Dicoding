@@ -1,0 +1,19 @@
+{
+    "name": "La Liga Fixture & Info",
+    "short_name": "La Liga",
+    "description": "Aplikasi PWA API-Football Sub 2",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#212121",
+    "theme_color": "#212121",
+    "gcm_sender_id": "533278554636",
+    "icons": [
+        {
+            "src": "img/football.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
+
